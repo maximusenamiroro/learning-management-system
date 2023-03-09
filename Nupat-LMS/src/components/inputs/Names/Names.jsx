@@ -4,7 +4,7 @@ const Names = () => {
   return (
     <div>
       <div class='flex space-x-10'>
-  <div class="form-group mb-2" style={{width:'50%'}} >
+  <div class="form-group mb-2 w-6/12">
       <input type="text"  required class="form-control
         block
         w-full
@@ -22,7 +22,7 @@ const Names = () => {
         focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInputEmail2"
         aria-describedby="emailHelp" placeholder=" First name" style={{border: '1px solid black'}}/>
     </div>
-    <div class="form-group mb-2" style={{width:'50%' }}>
+    <div class="form-group mb-2 w-6/12">
       <input type="text"  required class="form-control
         block
         w-full
@@ -38,7 +38,7 @@ const Names = () => {
         ease-in-out
         m-0
         focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInputEmail2"
-        aria-describedby="emailHelp" placeholder=" Last name" style={{width: '100',border:'1px solid black'}}/>
+        aria-describedby="emailHelp" placeholder=" Last name" style={{border:'1px solid black'}}/>
     </div>
 </div>
     </div>

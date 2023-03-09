@@ -1,10 +1,12 @@
-import React from 'react'
+import React from "react";
 
 const Signinbuttons = () => {
   return (
-    <div>
-      <div class='block space-y-4 mt-5'>
-    <button type="submit" class="
+    <>
+      <div class="block space-y-4 mt-5">
+        <button
+          type="submit"
+          class="
       w-full
        p-6
       py-2.5
@@ -21,9 +23,14 @@ const Signinbuttons = () => {
       active:bg-blue-800 active:shadow-lg
       transition
       duration-150
-      ease-in-out" >Sign in</button>
-   
-   <button type="submit" class="
+      ease-in-out"
+        >
+          Sign in
+        </button>
+
+        <button
+          type="submit"
+          class="
       w-full
        p-6
       py-2.5
@@ -39,10 +46,14 @@ const Signinbuttons = () => {
       active:bg-blue-800 active:shadow-lg
       transition
       duration-150
-      ease-in-out" style={{background: 'none', border: '1px solid #131E47'}}>Sign in with google</button>
-</div>
-    </div>
-  )
-}
+      ease-in-out"
+          style={{ background: "none", border: "1px solid #131E47" }}
+        >
+          Sign in with google
+        </button>
+      </div>
+    </>
+  );
+};
 
-export default Signinbuttons
+export default Signinbuttons;

@@ -1,0 +1,57 @@
+import Home from "./pages/home/Home.jsx";
+import { Route, Routes } from "react-router-dom";
+import { React } from "react";
+import Signup from "./pages/signup/Signup";
+import Signin from "./pages/signin/Signin.jsx";
+import Signupbanner from "./components/signup-banner/signupbanner";
+import Resetpassword from "./pages/Resetpassword/Resetpassword";
+import Resetpasswordconfirmation from "./pages/Resetpasswordconfirmation/Resetpasswordconfirmation.jsx";
+import Forgotpassword from "./pages/forgotpassword/Forgotpassword.jsx";
+import Checkyouremail from "./pages/checkyouremail/Checkyouremail.jsx";
+import Editprofile from "./pages/Editprofile/Editprofile.jsx";
+import Community from "./pages/Community/Community.jsx";
+import Help from "./pages/Help/Help.jsx";
+import Modulecontents from "./pages/Modulecontents/Modulecontents.jsx";
+import Feedback from "./pages/Feedback/Feedback.jsx";
+import Coursecompleted from "./pages/Coursecompleted/Coursecompleted.jsx";
+import Paymentsuccessful from "./pages/Paymentsuccessful/Paymentsuccessful.jsx";
+import Coursenaira from "./pages/Courseprice/Coursepricenaira/Coursenaira.jsx";
+import Modulecontent from "./pages/Modules content/Modulecontent.jsx";
+import Lesson1 from "./pages/Lessons/Lesson1/Lesson1.jsx";
+import Lessson2 from "./pages/Lessons/Lesson2/Lessson2.jsx";
+import FAQ from "./pages/FAQ/FAQ.jsx";
+import Accordion from "./components/Accordion/Accordion.jsx";
+import Task from "./pages/Task/Task.jsx";
+
+const App = () => {
+  return (
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Signup" element={<Signup />} />
+        <Route path="/Signin" element={<Signin />} />
+        <Route path="/Editprofile" element={<Editprofile />} />
+        <Route path="/Community" element={<Community />} />
+        <Route path="/Community" element={<Community />} />
+        <Route path="/Lesson1" element={<Lesson1 />} />
+        <Route path="/Lesson2" element={<Lessson2 />} />
+        <Route path="/Modulecontent" element={<Modulecontent />} />
+        <Route path="/Modulecontents" element={<Modulecontents />} />
+        <Route path="/Feedback" element={<Feedback />} />
+        <Route path="/Coursenaira" element={<Coursenaira />} />
+        <Route path="/Checkyouremail" element={<Checkyouremail />} />
+        <Route path="/signupbanner" element={<Signupbanner />} />
+        <Route path="/Help" element={<Help />} />
+        <Route path="/Forgotpassword" element={<Forgotpassword />} />
+        <Route path="/Resetpassword" element={<Resetpassword />} />
+        <Route path="/Paymentsuccessful" element={<Paymentsuccessful />} />
+        <Route path="/Resetpasswordconfirmation" element={<Resetpasswordconfirmation />} />
+        <Route path="/Coursecompleted" element={<Coursecompleted />} />
+        <Route path="/FAQ" element={<FAQ />} />
+        <Route path="/Task" element={<Task />} />
+        <Route path="/Accordion" element={<Accordion />} />
+      </Routes>
+    </div>
+  );
+};
+export default App;

@@ -1,12 +1,14 @@
-import React from 'react'
-import '../../../pages/signup/Signup.css'
-
+import React from "react";
+import "../../../pages/signup/Signup.css";
 
 const Emailinput = () => {
   return (
-    <div>
-      <div class="form-group mb-2" >
-      <input type="email"  required class="form-control
+    <>
+      <div class="form-group mb-2">
+        <input
+          type="email"
+          required
+          class="form-control
         block
         w-full
         px-2
@@ -20,11 +22,15 @@ const Emailinput = () => {
         transition
         ease-in-out
         m-0
-        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInputEmail2"
-        aria-describedby="emailHelp" placeholder="Email" style={{border:'1px solid black'}}/>
-    </div>
-    </div>
-  )
-}
+        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+          id="exampleInputEmail2"
+          aria-describedby="emailHelp"
+          placeholder="Email"
+          style={{ border: "1px solid black" }}
+        />
+      </div>
+    </>
+  );
+};
 
-export default Emailinput
+export default Emailinput;
