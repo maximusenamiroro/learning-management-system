@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Signupbuttons = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const Signupbuttons = () => {
       uppercase
       rounded
       shadow-md
+      bg-primary
       hover:bg-primary hover:shadow-lg
       focus:bg-primary focus:shadow-lg focus:outline-none focus:ring-0
       active:bg-blue-800 active:shadow-lg

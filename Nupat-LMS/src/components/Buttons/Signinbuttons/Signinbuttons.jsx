@@ -10,7 +10,6 @@ const Signinbuttons = () => {
       w-full
        p-6
       py-2.5
-
       text-white
       font-xl
       text-md
@@ -18,6 +17,7 @@ const Signinbuttons = () => {
       uppercase
       rounded
       shadow-md
+      bg-primary
       hover:bg-primary hover:shadow-lg
       focus:bg-primary focus:shadow-lg focus:outline-none focus:ring-0
       active:bg-blue-800 active:shadow-lg
