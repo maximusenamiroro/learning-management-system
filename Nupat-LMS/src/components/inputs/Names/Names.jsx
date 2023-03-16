@@ -1,9 +1,10 @@
 import React from 'react'
+import "../../../pages/signup/Signup.css"
 
 const Names = () => {
   return (
     <div>
-      <div class='flex space-x-10'>
+      <div class='flex space-x-3'>
   <div class="form-group mb-2 w-6/12">
       <input type="text"  required class="form-control
         block

@@ -30,8 +30,8 @@ const Courseprice = () => {
 
            {/* Toggle */}
 <div className='flex items-center justify-end pb-2'>
-  <p className=' text-base font-bold'>NGN</p>
-  <div>
+  <p className=' text-base font-bold'>NGN  </p>
+  <div className=' px-2'>
   <label class="switch">
   <input type="checkbox"/>
   <span class="slider round"></span>

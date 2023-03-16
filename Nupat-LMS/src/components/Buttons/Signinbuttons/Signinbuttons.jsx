@@ -3,13 +3,13 @@ import React from "react";
 const Signinbuttons = () => {
   return (
     <>
-      <div class="block space-y-4 mt-5">
+      <div class="block space-y-4 mt-14">
         <button
           type="submit"
           class="
       w-full
        p-6
-      py-2.5
+      py-3
       text-white
       font-xl
       text-md
@@ -33,7 +33,7 @@ const Signinbuttons = () => {
           class="
       w-full
        p-6
-      py-2.5
+      py-3
        bg-none
       text-black
       font-xl
