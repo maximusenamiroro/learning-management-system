@@ -31,6 +31,10 @@ module.exports = {
           primary: "#131E47 ",
           players: "#03CFD633"
         },
+        text:{
+         '3xl': "2em",
+         '4xl':'20px'
+        },
       },
     },
     plugins: [],

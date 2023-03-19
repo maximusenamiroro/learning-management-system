@@ -12,7 +12,7 @@ const Confirmpassword = () => {
         text-base
         font-normal
         text-gray-700
-        bg-white bg-clip-padding
+        bg-transparent
         border border-solid border-gray-300
         rounded
         transition
