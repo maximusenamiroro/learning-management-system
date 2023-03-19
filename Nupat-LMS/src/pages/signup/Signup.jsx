@@ -3,8 +3,7 @@ import Signupbanner from "../../components/signup-banner/signupbanner";
 import Emailinput from "../../components/inputs/Emailinput/Emailinput";
 import Phonenumberinput from "../../components/inputs/Phonenumber/Phonenumber";
 import { Link } from "react-router-dom";
-import "./signup.css";
-import "../signup/Signup.css";
+import "./Signup.css"
 import Passwordinput from "../../components/inputs/Password/Passwordinput";
 import Confirmpassword from "../../components/inputs/Confirmpassword/Confirmpassword";
 import Signupbutton from "../../components/Buttons/Signupbuttons/Signupbutton";
