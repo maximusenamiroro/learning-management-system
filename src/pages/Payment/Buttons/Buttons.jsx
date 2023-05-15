@@ -8,6 +8,7 @@ const Signupbuttons = () => {
           type="submit"
           class="
       w-full
+      bg-primary
        p-6
       py-2.5
       text-white

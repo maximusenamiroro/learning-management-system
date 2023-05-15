@@ -34,7 +34,7 @@ const Signupbuttons = () => {
           class="
       w-full
        p-6
-      py-8
+      py-5
        bg-none
       text-black
       font-xl
@@ -54,7 +54,7 @@ const Signupbuttons = () => {
         </button>
       </div>
 
-      <div class="block space-y-4 mt-5 hidden">
+      <div class="xs:block space-y-4 mt-5 hidden">
         <button
           type="submit"
           class="

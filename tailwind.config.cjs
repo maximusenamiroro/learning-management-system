@@ -13,7 +13,7 @@ module.exports = {
         'lg': {'max': '1023px'},
         // => @media (max-width: 1023px) { ... }
   
-        'md': {'max': '767px'},
+        'md': {'max': '840px'},
         // => @media (max-width: 767px) { ... }
   
         'sm': {'max': '639px'},
@@ -33,10 +33,11 @@ module.exports = {
         },
         text:{
          '3xl': "2em",
-         '4xl':'20px'
+         '4xl':'20px',
+         '5xl': '18rem'
         },
       },
     },
-    plugins: [],
+      plugins: [],
   };
     

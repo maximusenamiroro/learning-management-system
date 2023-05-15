@@ -7,10 +7,10 @@ const button = () => {
       w-full
       mt-10   
        p-6
-      py-3
+      py-4
       text-white
       font-medium
-      text-xs
+      text-xl
       leading-tight
       uppercase
       rounded
@@ -21,7 +21,8 @@ const button = () => {
       active:bg-blue-800 active:shadow-lg
       transition
       duration-150
-      ease-in-out" >Reset password</button>
+      ease-in-out
+        md:mt-6" >Reset password</button>
    
     </div>
   )
